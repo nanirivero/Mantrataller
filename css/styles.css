@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*header*/
+header {
+    background-color: rgb(165 32 147);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    border-radius: 30px;
+    font-style: italic;
+    color: rgb(0, 172, 153);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+  }
+
+header nav ul.barra-navegadora {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  header nav ul.barra-navegadora li {
+    float: left;
+  }
+  
+  header nav ul.barra-navegadora li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header nav ul.barra-navegadora li a:hover {
+    background-color: #ddd;
+  }
+
+main {
+    padding: 10px;
+    background-color: rgb(0, 172, 153);
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    border-radius: 30px;
+    border: 15px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+
+
+
+}
+
+h1 {
+    padding-bottom: 24px;
+    border: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 10px;
+    text-decoration: underline;
+}
+
+h2 {
+    padding: 10px;
+    color: aliceblue;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.nani {
+    display: flex;
+    justify-content: center;
+    max-width: 10rem;
+    margin: auto;
+    padding: 10px;
+}
+
+input {
+        border: none;
+        background-color: rgb(0, 172, 153);
+        color: aliceblue;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        margin: auto;
+        border-radius: 2px;
+    }
+
+.mantra {
+    background-color: rgb(125, 4, 206);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font: size 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.mail {
+    padding: 10px;
+    max-width: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+ul.correo {
+    color: rgb(0, 172, 153);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 10rem;
+    margin: auto;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    color: rgb(125, 4, 206);
+    display: flex;
+    justify-content: center;
+    max-width: 10rem;
+    margin: auto;
+
+}
+
+section.Sobremi {
+    padding-top: 20px;
+}
+
+  
+
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+    border: 3px;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+form.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  form.formulario label {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  form.formulario input,
+  form.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  form.formulario button[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(125, 4, 206);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  form.formulario button[type="submit"]:hover {
+    background-color: rgb(85, 1, 143);
+  }
+  
+  form.formulario p.success-message {
+    color: green;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
